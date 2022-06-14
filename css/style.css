@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.nav-bar{
+    display: flex;
+    background-color: white;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+div.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+div.logo h1{
+    font-family: 'Lobster', cursive;
+    color: #0C0F58;
+    font-size: 34px;
+}
+
+div.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+div.menu a{
+    color: #0C0F58;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 16px;
+}
+
+a#faleconosco{
+    padding: 10px 20px;
+    background: #0C0F58;
+    border-radius: 16px;
+    color: white;
+    margin-right: 10%;
+    margin-left: 4%;
+}
+
+a#faleconosco:hover{
+    background-color: #ff7369;
+    transition: 0.4s;
+}
+
+div.menu a:hover{
+    color: #ff7369;
+    transition: 0.4s;
+}
+
+header.header{
+    height: auto;
+    padding-top: 180px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+div.headline > h2{
+    font-size: 900;
+    font-size: 20px;
+    color: #0C0F58;
+    padding: 0;
+    margin: 0;
+}
+
+div.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+div.headline > p{
+    color: gray;
+    text-align: left;
+}
+
+a.contrate-btn{
+    display: inline-block;
+    background: #ff7369;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.contrate-btn:hover{
+    border-radius: 16px;
+    background: #686dfada;
+    transition: 0.4s;
+}
+
+section{
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+section > h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #0C0F58;
+}
+
+div.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+div.card{
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #ff7369;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+div.texto-oculto{
+    display: none;
+}
+
+div.card:hover{
+    background: #ff7369;
+    color: white;
+    padding: 40px;
+    transition: 0.2s;
+}
+
+div.card:hover img{
+    display: none;
+}
+
+div.card:hover .texto-padrao{
+    display: none;
+}
+
+div.card:hover .texto-oculto{
+    display: block;
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 250px;
+    background-image: linear-gradient(180deg, #0C0F58, #080936, #000);
+    text-align: center;
+    border-top: 4px solid #ff7369; 
+}
+
+div.rodape{
+    padding: 50px;
+    color: white;
+}
+
+h1.agencia{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    padding-bottom: 12px;
+}
+
+a#github{
+    text-decoration: none;
+    color: #ff7369;
+}
+
+a#github:hover{
+    text-decoration: underline;
+}
